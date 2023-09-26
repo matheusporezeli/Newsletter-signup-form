@@ -42,6 +42,6 @@ Por fim, na tela de email cadastrado, fiz com que o botão "dismiss" apagasse o 
 
 ## Desafios encontrados
 
-- Estilização sem figma como base;<br>
+- Estilização sem figma como base;
 - Utilização de REGEX para validação de email;
 - Manipulação do DOM para aparecer a mensagem de email invalido e mudança para a página de cadastro completo.
