@@ -1,0 +1,26 @@
+@media (max-width: 375px) {
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .cadastro{
+        flex-direction: column-reverse;
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .cadastrado {
+        justify-content: center;
+        width: 355px;
+        height: 75%;
+        padding: 60px 10px 10px;
+        border-radius: 0;
+    }
+
+    .btn_mobile{
+        margin-top: 80%;
+    }
+}

@@ -1,0 +1,124 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  --azul-escuro: hsl(234, 29%, 20%);
+  --azul-medio: hsl(235, 18%, 26%);
+  --cinza: hsl(231, 7%, 60%);
+  --branco: hsl(0, 0%, 100%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  background: var(--azul-escuro);
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: var(--branco);
+  padding: 20px;
+  border-radius: 30px;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card_titulo {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--azul-escuro);
+}
+
+.card_paragrafo,
+.card_lista li,
+.form_label {
+  color: var(--azul-medio);
+}
+
+.card_lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  list-style-image: url(/assets/images/icon-list.svg);
+  list-style-position: inside;
+}
+
+.card_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.labels{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--azul-medio);
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.form_label__invalid{
+    color: #ff0000;
+    display: none;
+}
+
+.form_email {
+  padding: 20px;
+  border-radius: 7.5px;
+  border: 1px solid var(--cinza);
+  background: #ffffff;
+}
+
+.form_email::placeholder {
+  font-size: 1rem;
+  color: var(--cinza);
+}
+
+.card_btn {
+  padding: 20px;
+  border: none;
+  border-radius: 7.5px;
+  background: var(--azul-escuro);
+  color: var(--branco);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+  color: var(--branco);
+}
+
+.attribution a {
+  color: var(--cinza);
+}
+
+.cadastrado{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--branco);
+  padding: 20px;
+  border-radius: 30px;
+  gap: 20px;
+  width: 375px;
+}

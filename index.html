@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+  <section class="cadastro" id="cadastro">
+    <div class="card">
+      <h1 class="card_titulo">Stay updated!</h1>
+      <p class="card_paragrafo">  Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul class="card_lista">
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+      </ul>
+      <form class="card_form" id="formulario">
+        <div class="labels">
+          <label for="email" class="form_label">Email address</label>
+          <label for="email" class="form_label__invalid" id="email_error">Valid email required</label>
+        </div>
+        <input type="email" id="email" class="form_email" placeholder="email@company.com" required>
+        <button class="card_btn" id="subscribe_btn">Subscribe to monthly newsletter</button>
+      </form>
+    </div>
+    <picture>
+      <source media="(max-width: 375px)" srcset="assets/images/illustration-sign-up-mobile.svg">
+      <img src="assets/images/illustration-sign-up-desktop.svg">
+    </picture>
+    
+  </section>
+
+  
+  <section class="cadastrado" id="cadastrado"></section>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv" target="_blank">Frontend Mentor</a>.
+    <br>
+    <br>
+    Coded by <a href="https://github.com/matheusporezeli" target="_blank">Matheus Porezeli</a>.
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
